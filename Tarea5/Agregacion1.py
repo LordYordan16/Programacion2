@@ -21,7 +21,6 @@ class Biblioteca:
         for libro in self.libros:
             libro.mostrar()
 
-    # c) Buscar libro por nombre
     def buscarLibro(self, nombreBuscado):
         encontrado = False
         for libro in self.libros:
